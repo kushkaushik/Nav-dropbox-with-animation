@@ -1,0 +1,200 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+    
+
+
+
+.img{
+    background-image: url(ccd5eefa40db56436a326e219a4aaa0f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    width: 100%;
+    
+    height: 100vh;
+
+    
+  
+    
+transition: 125s;
+    
+
+    animation: animate 30s linear infinite;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+ 
+
+.nav a{
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    
+    font-family: cursive;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    opacity: .8;
+
+
+
+}
+
+
+
+.nav a:hover{
+    background-color: #03e9f4;
+    
+    box-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 55px #03e9f4;
+    
+}
+
+.nav ul{
+    
+display: flex; 
+}
+.nav li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+    
+}
+
+
+
+.d1 li{
+ display: none;   
+}
+
+
+.nav li:hover .d1>li{
+    display: block;
+}
+
+.d1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.d1 li{
+    position: relative;
+}
+
+
+.d2 li{
+    display: none;
+}
+
+.d1 li:hover .d2 li{
+    display: block;
+}
+
+.d2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 100%;
+    width: 100%
+}
+
+
+
+.about li{
+    display: none;
+    
+}
+
+
+.nav li:hover .about>li{
+    transition: 1s;
+    display: block;
+     
+    
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ position: absolute;
+}
+
+
+.about li{
+    position: relative;
+ }
+
+.m li{
+    display: none;
+}
+
+.about li:hover .m li{
+    display: block;
+    top: 0;
+  
+}
+
+.m{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    width: 100%;
+    left: 100%;
+    position: absolute;
+}
+
+
+
+/*
+.bt{
+    position: absolute;
+    
+    left: 75%;
+    color: red;
+top: 0%;
+
+}*/
+
+
+.bt,.btr{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+    
+    
+    
+    
+    @keyframes animate{
+
+    
+    
+    0%{ background-image: url(WhatsApp%20Image%202020-06-09%20at%202.05.04%20PM.jpeg);}
+    
+    20%{background-image: url(WhatsApp%20Image%202020-06-09%20at%201.56.50%20PM.jpeg);}
+    
+    40%{background-image: url(WhatsApp%20Image%202020-06-09%20at%201.51.11%20PM.jpeg);}
+    
+    60%{background-image: url(photo-1503023345310-bd7c1de61c7d.jpg);}
+    
+    80%{background-image: url(ccd5eefa40db56436a326e219a4aaa0f.jpg);}
+    
+    100%{background-image: url(30-302927_background-pictures-2018-new-cb-background-download-hd.jpg);}
+    
+
+}
+
